@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Autodiscover xmlns="http://schemas.microsoft.com/exchange/autodiscover/responseschema/2006">
+	<Response xmlns="http://schemas.microsoft.com/exchange/autodiscover/outlook/responseschema/2006a">
+		<!-- Source info from http://www.experts-exchange.com/Software/Office_Productivity/Office_Suites/Google_Apps/Q_28501039.html -->
+		<!-- Use this link instead  https://www.google.ca/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0CB0QFjAA&url=http%3A%2F%2Fwww.experts-exchange.com%2FSoftware%2FOffice_Productivity%2FOffice_Suites%2FGoogle_Apps%2FQ_28501039.html&ei=dbxqVZH3JsH5yQSEiIPIBQ&usg=AFQjCNGOTkdVxYKNCy0mfGRLWCEc1HJ0bg&sig2=oPgMIYrsfxs30HengFgiQg -->
+			<!-- locate at http://autodiscover.mylansite.org/autodiscover/autodiscover.xml -->
+		<Account>
+			<AccountType>email</AccountType>
+			<Action>settings</Action>
+			<Protocol>
+				<Type>IMAP</Type>
+				<Server>imap.gmail.com</Server>
+				<Port>993</Port>
+				<DomainRequired>on</DomainRequired>
+				<SPA>off</SPA>
+				<SSL>on</SSL>
+				<AuthRequired>on</AuthRequired>
+				</Protocol>
+				<Protocol>
+				<Type>POP3</Type>
+				<Server>pop.gmail.com</Server>
+				<Port>995</Port>
+				<DomainRequired>on</DomainRequired>
+				<SPA>off</SPA>
+				<SSL>on</SSL>
+				<AuthRequired>on</AuthRequired>
+				</Protocol>
+				<Protocol>
+				<Type>SMTP</Type>
+				<Server>smtp.gmail.com</Server>
+				<Port>465</Port>
+				<DomainRequired>on</DomainRequired>
+				<SPA>off</SPA>
+				<SSL>on</SSL>
+				<AuthRequired>on</AuthRequired>
+				<UsePOPAuth>on</UsePOPAuth>
+				<SMTPLast>off</SMTPLast>
+			</Protocol>
+		</Account>
+	</Response>
+</Autodiscover>
