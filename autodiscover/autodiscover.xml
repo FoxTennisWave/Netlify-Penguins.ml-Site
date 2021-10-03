@@ -6,19 +6,28 @@
             <Action>settings</Action>
             <Protocol>
                 <Type>IMAP</Type>
-                <Server>mx1.mxroute.com</Server>
+                <Server>friday.mxroute.com</Server>
                 <Port>993</Port>
                 <DomainRequired>on</DomainRequired>
-                <SPA>off</SPA>
+                <SPA>on</SPA>
+                <SSL>on</SSL>
+                <AuthRequired>on</AuthRequired>
+            </Protocol>
+            <Protocol>
+                <Type>POP3</Type>
+                <Server>friday.mxroute.com</Server>
+                <Port>995</Port>
+                <DomainRequired>on</DomainRequired>
+                <SPA>on</SPA>
                 <SSL>on</SSL>
                 <AuthRequired>on</AuthRequired>
             </Protocol>
             <Protocol>
                 <Type>SMTP</Type>
-                <Server>mx1.mxroute.com</Server>
+                <Server>friday.mxroute.com</Server>
                 <Port>465</Port>
                 <DomainRequired>on</DomainRequired>
-                <SPA>off</SPA>
+                <SPA>on</SPA>
                 <SSL>on</SSL>
                 <AuthRequired>on</AuthRequired>
                 <UsePOPAuth>on</UsePOPAuth>
