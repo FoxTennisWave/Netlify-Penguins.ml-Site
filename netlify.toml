@@ -2,7 +2,7 @@
 # unless otherwise overridden by more specific contexts.
 [build]
   # Default build command.
-  command = ''
+  command = 'rm -f README.md'
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
