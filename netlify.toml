@@ -1,0 +1,26 @@
+# Settings in the [build] context are global and are applied to all contexts
+# unless otherwise overridden by more specific contexts.
+[build]
+  # Default build command.
+  command = ''
+
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+
+    # Multi-value headers are expressed with multi-line strings.
+	##cache-control = '''
+	##max-age=0,
+	##no-cache,
+	##no-store,
+	##must-revalidate'''
+
+# The following redirect is intended for use with most SPAs that handle
+# routing internally.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 404
