@@ -1,9 +1,9 @@
 
 RewriteEngine on
 
-RewriteCond %{HTTP_HOST} ^autodiscover\.penguins\.ml$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.autodiscover\.penguins\.ml$
-RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
-RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
-RewriteRule ^(.*)$ "https\:\/\/penguins\.ml\/www5\/$1" [R=302,L]
+##RewriteCond %{HTTP_HOST} ^autodiscover\.penguins\.ml$ [OR]
+##RewriteCond %{HTTP_HOST} ^www\.autodiscover\.penguins\.ml$
+##RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+##RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+##RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+##RewriteRule ^(.*)$ "https\:\/\/penguins\.ml\/www5\/$1" [R=302,L]
