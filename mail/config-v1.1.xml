@@ -6,7 +6,7 @@
 		<displayName>Penguins.ml Email Domain</displayName>
 		<displayShortName>Penguins.ml</displayShortName>
 		<incomingServer type="imap">
-			<hostname>friday.mxroute.com</hostname>
+			<hostname>friday.mxlogin.com</hostname>
 			<port>993</port>
 			<socketType>SSL</socketType>
 			<authentication>password-encrypted</authentication>
@@ -20,7 +20,7 @@
 			<username>%EMAILADDRESS%</username>
 		</incomingServer>
 		<outgoingServer type="smtp">
-			<hostname>friday.mxroute.com</hostname>
+			<hostname>friday.mxlogin.com</hostname>
 			<port>465</port>
 			<socketType>SSL</socketType>
 			<authentication>password-encrypted</authentication>
