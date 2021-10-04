@@ -9,7 +9,7 @@
                 <Server>friday.mxlogin.com</Server>
                 <Port>993</Port>
                 <DomainRequired>on</DomainRequired>
-                <SPA>on</SPA>
+                <SPA>off</SPA>
                 <SSL>on</SSL>
                 <AuthRequired>on</AuthRequired>
             </Protocol>
@@ -18,7 +18,7 @@
                 <Server>friday.mxlogin.com</Server>
                 <Port>995</Port>
                 <DomainRequired>on</DomainRequired>
-                <SPA>on</SPA>
+                <SPA>off</SPA>
                 <SSL>on</SSL>
                 <AuthRequired>on</AuthRequired>
             </Protocol>
@@ -27,7 +27,7 @@
                 <Server>friday.mxlogin.com</Server>
                 <Port>465</Port>
                 <DomainRequired>on</DomainRequired>
-                <SPA>on</SPA>
+                <SPA>off</SPA>
                 <SSL>on</SSL>
                 <AuthRequired>on</AuthRequired>
                 <UsePOPAuth>on</UsePOPAuth>
